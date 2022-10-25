@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    container_name: alien-web-code
+    build: .
+    ports:
+      - "8911:80"
+  redis:
+    image: "redis:alpine"
