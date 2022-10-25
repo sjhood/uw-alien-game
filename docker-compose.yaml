@@ -6,4 +6,5 @@ services:
     ports:
       - "8911:80"
   redis:
+    container_name: alien-redis
     image: "redis:alpine"
